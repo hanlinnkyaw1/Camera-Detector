@@ -32,11 +32,9 @@ Just open `index.html` in your browser with internet access (uses CDN for models
    <script src="coco-ssd.min.js"></script>
    
 4. Update `main.js` to load the model locally:
-``
-model = await cocoSsd.load({ modelUrl: 'models/coco-ssd/model.json'});``
+```model = await cocoSsd.load({ modelUrl: 'models/coco-ssd/model.json'});
 
-## project structure for offline project
-
+### project structure for : offline project
 .
 ├── index.html
 ├── main.js
